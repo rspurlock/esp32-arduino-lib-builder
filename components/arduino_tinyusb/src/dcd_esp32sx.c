@@ -253,6 +253,7 @@ bool dcd_init(uint8_t rhport, const tusb_rhport_init_t* rh_init)
   } else {
     dcd_connect(rhport);
   }
+  return true;
 }
 
 void dcd_set_address(uint8_t rhport, uint8_t dev_addr)

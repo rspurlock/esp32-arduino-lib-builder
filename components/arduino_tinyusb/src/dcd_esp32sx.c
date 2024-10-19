@@ -172,7 +172,7 @@ static void enum_done_processing(void)
 /*------------------------------------------------------------------*/
 /* Controller API
  *------------------------------------------------------------------*/
-void dcd_init(uint8_t rhport)
+void dcd_init(uint8_t rhport, const tusb_rhport_init_t* rh_init)
 {
   ESP_LOGV(TAG, "DCD init - Start");
 

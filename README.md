@@ -10,5 +10,5 @@ sudo apt-get install git wget curl libssl-dev libncurses-dev flex bison gperf py
 sudo pip install --upgrade pip
 git clone https://github.com/rspurlock/esp32-arduino-lib-builder
 cd esp32-arduino-lib-builder
-./build.sh
+./build.sh -A release/v2.x -I release/v4.4 -i v4.4.5
 ```
